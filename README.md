@@ -1,7 +1,9 @@
 # pomoc
-Business Logic
+## Business Logic
 
-✅ Primjer: add_customer funkcija sa validacijom
+### ✅ **Primjer: `add_customer` funkcija sa validacijom**
+
+```php
 /**
  * Dodaje novog customer-a u bazu
  * Ovdje se radi validacija unutar Service sloja prije slanja DAO-u
@@ -436,10 +438,10 @@ Flight::json($service->get_customers());
 **✅ To je tvoj Middleware šalabahter! Spremi ga u README i samo ga koristi!**
 
 
-🟢 ✅ MIDDLEWARE SKELET
+## 🟢 ✅ MIDDLEWARE SKELET
 Zapiši ovo u README ili drži kao AuthMiddleware.php
 
-
+```php
 <?php
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
@@ -507,6 +509,7 @@ class AuthMiddleware {
   }
 }
 ?>
+
 
 
 
